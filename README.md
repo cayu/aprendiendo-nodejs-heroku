@@ -4,7 +4,7 @@
 docker build -t examplenode .
 ```
 ```
-docker run -d -p 3000:3000 --name node-app examplenode
+docker run -d -p 5000:5000 --name node-app examplenode
 ```
 
 # Heroku
