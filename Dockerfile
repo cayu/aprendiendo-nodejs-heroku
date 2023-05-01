@@ -1,6 +1,6 @@
-FROM node:14
+FROM node
 WORKDIR /usr/src/app
 COPY package*.json index.js ./
 RUN npm install
-EXPOSE 5000
+EXPOSE 3000
 CMD ["node", "index.js"]
